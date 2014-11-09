@@ -5,7 +5,7 @@ using System.Collections;
 
 public class SwingShot : MonoBehaviour {
 
-	 public int speed = 10;
+	 public int speed = f10;
 	//var target : Transform;
 	public GameObject target;
 
