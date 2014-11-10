@@ -17,6 +17,6 @@ public class SwingShot : MonoBehaviour {
 		transform.RotateAround (target.transform.position, Vector3.up, speed);
 		Debug.Log ("Positoon of rotation : "+target.transform.position+"@@@@"+pos);
 
-	//	target.transform.position = target.transform.position - 0.1f;
+		target.transform.position = target.transform.position - 0.1f;
 	}
 }
